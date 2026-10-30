@@ -36,3 +36,15 @@ CONFIG_PACKAGE_airoha-pond=y
 
 #luci
 CONFIG_PACKAGE_luci-app-pon=y
+
+#
+# Honk 透明代理依赖（插件本体由用户后期自行安装）
+#
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_kmod-nft-queue=y
+CONFIG_PACKAGE_jshn=y
+CONFIG_PACKAGE_sqlite3-cli=y
+CONFIG_PACKAGE_usign=y
+CONFIG_PACKAGE_coreutils-stat=y
+CONFIG_PACKAGE_v2ray-geoip=y
+CONFIG_PACKAGE_v2ray-geosite=y
